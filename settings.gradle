@@ -1,1 +1,4 @@
-include ':app', ':libuvccamera-release', ':usbCameraCommon-release'
+include ':libuvccamera', ':tensortest'
+include ':usbCameraCommon'
+include ':app'
+
